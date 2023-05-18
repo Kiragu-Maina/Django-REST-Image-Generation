@@ -28,6 +28,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
+CSRF_TRUSTED_ORIGINS = ["https://django-server-production-602e.up.railway.app"]
+CORS_ALLOW_ALL_ORIGINS: True
+
 # FORM SUBMISSION
 # Comment out the following line and place your railway URL, and your production URL in the array.
 # CSRF_TRUSTED_ORIGINS = ["*"]
@@ -43,7 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apisforml',
     'corsheaders',
-    'rest-framework',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -57,7 +60,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
-CORS_ORIGIN_ALLOW_ALL = True
+
 ROOT_URLCONF = 'mysite.urls'
 
 TEMPLATES = [
