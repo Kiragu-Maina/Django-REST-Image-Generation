@@ -44,11 +44,15 @@ This diagram visually represents the flow of the process:
 5. Modify the database settings in settings.py to use SQLite3 or your custom database.
 
 6. Apply database migrations:
-   f)python manage.py migrate
-   g)python manage.py runserver
+   ```bash
+   python manage.py migrate
+7. Start the development server:
+   ```bash
+   python manage.py runserver
 
-6. Available as an api endpoint at https://django-server-production-602e.up.railway.app/apis/generate-image
-7. A generated image:
+
+## 8. Available as an api endpoint at https://django-server-production-602e.up.railway.app/apis/generate-image
+## 9.  A generated image:
 ![Image Alt Text](generatedimage.jpg)
    
    [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/GB6Eki?referralCode=U5zXSw)
