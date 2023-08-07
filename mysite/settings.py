@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = ["https://django-rest-image-generation-production.up.railway.app"]
-CORS_ALLOW_ALL_ORIGINS: True
+
 CORS_ALLOWED_ORIGINS = [
         'https://image-generator-webapp.vercel.app',
         
