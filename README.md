@@ -51,7 +51,7 @@ This diagram visually represents the flow of the process:
    python manage.py runserver
 
 
-## 8. Available as an api endpoint at https://django-server-production-602e.up.railway.app/apis/generate-image
+## 8. Available as an api endpoint at https://django-rest-image-generation-production.up.railway.app/apis/generate-image/
 ## 9.  A generated image:
 ![Image Alt Text](generatedimage.jpg)
    
